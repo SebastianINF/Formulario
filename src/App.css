@@ -1,0 +1,64 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+  color: white;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+span {
+  display: block;
+  color: tomato;
+  font-size: x-small;
+  user-select: none;
+}
+
+input::placeholder {
+  padding-left: 3px;
+}
+
+form {
+  display: flex;
+  align-items: initial;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(61, 57, 57, 0.975);
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+
+#espaciado {
+  margin-bottom: 10px;
+}
+
+.label-terminos {
+  margin-top: 5px;
+}
+
+.input-terminos {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+  position: relative;
+}
+
+button {
+  display: block;
+  place-items: center;
+  justify-content: center;
+  width: min-content;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 10px 8px 10px;
+  border-radius: 10%;
+}
+
+button:hover {
+  background-color: #101010;
+  color: white;
+}
